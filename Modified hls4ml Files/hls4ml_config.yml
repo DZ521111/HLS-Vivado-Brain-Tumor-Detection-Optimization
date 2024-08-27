@@ -1,0 +1,115 @@
+Backend: Vivado
+ClockPeriod: 10
+HLSConfig:
+  LayerName:
+    conv2d_31:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_31_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_32:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_32_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_33:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_33_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_34:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_34_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense_29:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_29_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense_30:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_30_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense_31:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_31_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense_32:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_32_sigmoid:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    flatten_8:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    input_9:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    max_pooling2d_18:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    max_pooling2d_19:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<6,2>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'my-hls-test/keras_model.h5'
+OutputDir: my-hls-test
+OutputPredictions: null
+Part: xcvu13p-flga2577-2-e
+ProjectName: myproject
+Stamp: 42f11dDd
+Version: 1.0.0
