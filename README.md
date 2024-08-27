@@ -46,7 +46,7 @@ This project focuses on optimizing a brain tumor detection model using High-Leve
 The following table summarizes the comparison between Normal, HLS4ML, and Manual (Vivado) implementations of the brain tumor detection model:
 
 
-![Final Results Table](images/result.png)
+![Final Results Table](Images/result.png)
 
 The table provides insights into the utilization of resources such as Look-Up Tables (LUTs), Flip-Flops (FF), Digital Signal Processing blocks (DSP), Block RAMs (BRAM), latency in clock cycles, and clock period for each design approach.
 
