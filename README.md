@@ -170,3 +170,6 @@ These issues and solutions highlight the complexities of working with HLS4ML for
 ## Contributions
 
 - **Dhruvkumar Kakadiya**: Model implementation, HLS4ML optimization, Vivado manual optimization, performance analysis.
+- **Ajay Rajpurohit**
+- **Kishan Thakkar**
+- **Gautam Gandhi**
