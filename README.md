@@ -8,7 +8,7 @@ This project focuses on optimizing a brain tumor detection model using High-Leve
 ## Project Details
 
 - **Duration**: July 2023 - January 2024
-- **Supervisor**: Dr. Chandan Karfa,  Associate Professor, Dept. of CSE, IIT Guwahati
+- **Supervisor**: Dr. Chandan Karfa, Associate Professor, Dept. of CSE, IIT Guwahati
 - **Tools Used**: HLS4ML, Vivado HLS, Vivado
 
 ## Objectives
@@ -82,7 +82,7 @@ The table provides insights into the utilization of resources such as Look-Up Ta
 <!-- ## Issues and Challenges
 
 1. **High Latency in Initial Models**: The initial model's latency was very high, ranging up to 3,458,344 cycles, which required significant optimization.
-2. **Resource Utilization**: Efficient utilizations of BRAM and DSP resources was necessary to meet hardware constraints while optimizing latency.
+2. **Resource Utilization**: Efficient utilization of BRAM and DSP resources was necessary to meet hardware constraints while optimizing latency.
 3. **Clock Constraints**: Ensuring timing constraints were met with a targeted clock period of 10 ns, which required careful pipelining and optimization. -->
 
 ## Issues and Challenges with HLS4ML
