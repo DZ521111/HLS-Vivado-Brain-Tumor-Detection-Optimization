@@ -169,7 +169,8 @@ These issues and solutions highlight the complexities of working with HLS4ML for
 
 ## Contributions
 
-- **Dhruvkumar Kakadiya**: Model implementation, HLS4ML optimization, Vivado manual optimization, performance analysis.
-- **Ajay Rajpurohit**
-- **Kishan Thakkar**
-- **Gautam Gandhi**
+- **Dhruvkumar Kakadiya**: Model implementation, HLS4ML optimization, Vivado manual optimization, Performance analysis.
+- **Ajay Rajpurohit**: Removed specific pragmas to generate HLS4ML reports, Vivado Report Generation Debugging.
+- **Kishan Thakkar**: Modifications for Keras2C Synthesizability, Issue Resolution and Debugging.
+- **Gautam Gandhi**: Modifications for Keras2C Synthesizability, Issue Resolution and Debugging.
+- **Jash Ratanghayra**: Vivado Manual Optimization, Performance Analysis.
